@@ -410,7 +410,7 @@ img{
 .testmonial-name{
     font-weight: var(--font-medium);
 }
-.tesmonial-img{
+.testmonial-img{
     width: 320px;
     border-radius: 1rem;
     justify-self: center;
@@ -430,8 +430,13 @@ img{
 }
 .footer-data{
     text-align: center;
-    row-gap: 4.5rem;
+    /* row-gap: 4.5rem; */
 }
+.footer-des{
+    color: #fff;
+    margin-top: 20px;
+}
+
 .footer-logo,
 .footer-title,
 .footer-input,
@@ -442,7 +447,7 @@ img{
 .footer-logo{
      display: inline-flex;
      align-items: center;
-     column-gap: .5rem;
+     /*column-gap: .5rem;*/
      font-size: var(--h3-font-size);
      font-family:var(--second-font);
      margin-bottom: 1rem;
@@ -497,7 +502,7 @@ img{
 .footer-social{
     display:flex;
     justify-content: center;
-    column-gap: 2rem;
+    column-gap: 1rem;
 }
 .footer-social-link{
     font-size: 1.25rem;
@@ -760,7 +765,7 @@ img{
         row-gap: 4rem;
     }
     .footer-social{
-        column-gap: 3rem;
+        column-gap: 1rem;
     }
     .footer-social-link{
         font-size: 1.5rem;
